@@ -6,4 +6,5 @@ def leer_url(url):
         num_palabras = linea.decode('utf-8')
         print(num_palabras)
         return
+    
 leer_url(url)
