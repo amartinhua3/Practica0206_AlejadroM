@@ -25,6 +25,7 @@ Si el fichero existe lo muestra por pantalla y si no mostrará que no existe.
         file.close()
     except FileNotFoundError:
         print("El fichero no existe")
+        
 mostrar_tabla(numero)
 
 
