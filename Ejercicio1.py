@@ -5,5 +5,4 @@ def numero(num):
     for i in range(0, 11):
         file.write(str(num * i)+ '\n')
 
-
 numero(7)
